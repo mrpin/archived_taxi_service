@@ -10,6 +10,7 @@ $(document).ready(function ()
 
     var map;
     var watchId = null; //for btns to start/stop watching location
+    var prevCoords = null;
 
 
 //  ===LOCATION===
@@ -18,9 +19,9 @@ $(document).ready(function ()
     {
         if (navigator.geolocation)
         {
-//            navigator.geolocation.getCurrentPosition(displayLocation, displayError);
-            $("#btn_start").click(watchLocation);
-            $("#btn_finish").click(clearWatch);
+//          navigator.geolocation.getCurrentPosition(displayLocation, displayError);
+            $("#buttonStart").click(watchLocation);
+            $("#buttonFinish").click(clearWatch);
 
         }
         else
@@ -42,6 +43,17 @@ $(document).ready(function ()
         if (map == null)
         {
             showMap(position.coords);
+            prevCoords = position.coords;
+        }
+        else
+        {
+            var meters = computeDistance(position.coords, prevCoords)*1000;
+
+            if (meters > 5)
+            {
+//                scrollMapToPosition(position.coords);
+                prevCoords = position.coords;
+            }
         }
 
     }
@@ -53,6 +65,7 @@ $(document).ready(function ()
             0: "Unknown error",
             1: "Permission denied by user",
             2: "Position is not available",
+            3: "Request timed out"
         };
 
         var errorMessage = errorTypes[error.code];
@@ -67,9 +80,15 @@ $(document).ready(function ()
 
 //  ===BUTTON START===
 
+    var options =
+    {
+        enableHighAccuracy: true,
+        maximumAge: 0
+    }
+
     function watchLocation()
     {
-        watchId = navigator.geolocation.watchPosition(displayLocation, displayError);
+        watchId = navigator.geolocation.watchPosition(displayLocation, displayError, options);
     }
 
 //  ===BUTTON FINISH==
@@ -113,13 +132,17 @@ $(document).ready(function ()
         {
             zoom: 15,
             center: googleLatAndLong,
-            mapTypeId: google.maps.MapTypeId.ROADMAP     //or SATELLITE or HYBRID
+            disableDefaultUI: true,
+            disableDoubleClickZoom: true,
+            draggable: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP     //ROADMAP or SATELLITE or HYBRID
+
         };
 
         map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-        var title = "Your location";
-        addMarker(map, googleLatAndLong, title);
+//        var title = "Your location";
+        addMarker(map, googleLatAndLong);
     }
 
 //  ===ADDING MARKER===
@@ -137,6 +160,20 @@ $(document).ready(function ()
         var marker = new google.maps.Marker(markerOptions);
     }
 
+
+//  ===SCROLL CURRENT POSITION TO CENTER===
+
+    function scrollMapToPosition(coords)
+    {
+        var latitude = coords.latitude;
+        var longitude = coords.longitude;
+
+        var latlong = new google.maps.LatLng(latitude, longitude);
+
+        map.panTo(latlong);
+
+        addMarker(map, latlong, "New location");
+    }
 
 //  ===FUNCTIONS TO HELP===
 
