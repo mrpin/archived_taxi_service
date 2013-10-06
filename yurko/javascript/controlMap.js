@@ -1,37 +1,57 @@
+// This example creates a 2-pixel-wide red polyline showing
+// the path of William Kingsford Smith's first trans-Pacific flight between
+// Oakland, CA, and Brisbane, Australia.
+
+var map;
+var masPoints;
+
 function initialize()
     {
 
     var startLatitude = 48.44375;
     var startLongitude = 35.02229;
 
-    var points = [
-        new GLatLng(48.44375, 35.02229),
-        new GLatLng(48.44721, 35.02308),
-        new GLatLng(48.44764, 35.02532)
+    var mapOptions = {
+        zoom: 16,
+        center: new google.maps.LatLng(startLatitude, startLongitude),
+        disableDefaultUI: true,
+        disableDoubleClickZoom: true,
+        draggable: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    masPoints = [
+        new google.maps.LatLng(startLatitude, startLongitude)
     ];
 
-    if (GBrowserIsCompatible())
-        {
-        var map = new GMap2(document.getElementById("map_canvas"));
-        map.setCenter(new GLatLng(startLatitude, startLongitude), 16);
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    }
 
-        //Запрещает менять масштаб по двойному клику
-        map.disableDoubleClickZoom();
+function pathFromPoints(Latitude, Longitude)
+    {
+    var point = new google.maps.LatLng(Latitude, Longitude);
+    masPoints.push(point);
 
-            //Запрещает перетаскивание карты
-        map.disableDragging();
-
-        // Координаты для брекпоинтов
-        for (var i = 0; i < points.length; i++)
-            {
-            var marker1 = new GMarker(points[i]);
-            map.addOverlay(marker1);
-            }
-//                var point = new GLatLng(startLatitude, startLongitude);
-//                var marker = new GMarker(point);
-//                map.addOverlay(marker);
-        }
-
+    var flightPath = new google.maps.Polyline({
+        path: masPoints,
+        strokeColor: '#FF0000',
+        strokeOpacity: 1.0,
+        strokeWeight: 10
+    });
+    map.panTo(point);
+    flightPath.setMap(map);
     }
 
 
+function button()
+    {
+    var inputLatitude = document.getElementById("startLatitude").value;
+    var inputLongitude = document.getElementById("startLongitude").value;
+
+    pathFromPoints(inputLatitude, inputLongitude);
+
+//    alert(startLatitude);
+    }
+
+
+google.maps.event.addDomListener(window, 'load', initialize);
