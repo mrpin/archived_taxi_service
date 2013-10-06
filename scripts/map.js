@@ -20,8 +20,8 @@ $(document).ready(function ()
         if (navigator.geolocation)
         {
 //          navigator.geolocation.getCurrentPosition(displayLocation, displayError);
-            $("#btn_start").click(watchLocation);
-            $("#btn_finish").click(clearWatch);
+            $("#buttonStart").click(watchLocation);
+            $("#buttonFinish").click(clearWatch);
 
         }
         else
@@ -51,7 +51,7 @@ $(document).ready(function ()
 
             if (meters > 5)
             {
-                scrollMapToPosition(position.coords);
+//                scrollMapToPosition(position.coords);
                 prevCoords = position.coords;
             }
         }
@@ -65,6 +65,7 @@ $(document).ready(function ()
             0: "Unknown error",
             1: "Permission denied by user",
             2: "Position is not available",
+            3: "Request timed out"
         };
 
         var errorMessage = errorTypes[error.code];
@@ -77,13 +78,13 @@ $(document).ready(function ()
         $("#mylocation").html(errorMessage);
     }
 
+//  ===BUTTON START===
+
     var options =
     {
         enableHighAccuracy: true,
         maximumAge: 0
     }
-
-//  ===BUTTON START===
 
     function watchLocation()
     {
@@ -131,7 +132,11 @@ $(document).ready(function ()
         {
             zoom: 15,
             center: googleLatAndLong,
+            disableDefaultUI: true,
+            disableDoubleClickZoom: true,
+            draggable: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP     //ROADMAP or SATELLITE or HYBRID
+
         };
 
         map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -156,7 +161,7 @@ $(document).ready(function ()
     }
 
 
-//  ===SCROLL CURRENT POSITION TO CENTER
+//  ===SCROLL CURRENT POSITION TO CENTER===
 
     function scrollMapToPosition(coords)
     {
