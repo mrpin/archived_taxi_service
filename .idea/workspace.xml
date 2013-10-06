@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yurko/javascript/controlMap.js" afterPath="$PROJECT_DIR$/yurko/javascript/controlMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yurko/index.html" afterPath="$PROJECT_DIR$/yurko/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yurko/styles/styles.less" afterPath="$PROJECT_DIR$/yurko/styles/styles.less" />
-    </list>
+    <list default="true" id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="" />
     <ignored path="taxi.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381066087169" ignored="false" />
