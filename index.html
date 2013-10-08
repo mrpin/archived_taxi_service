@@ -22,12 +22,35 @@
 <div class="content">
 
     <div id="header">
+        <img src="assets/logo.png" width="164" height="122">
 
-        <div id="mylocation">
-            My location.
+        <button id="buttonTest">TEST</button>
+
+        <div class="labels">
+
+            <div class="labelsValue">
+                <p>
+                    <label id="distance"> 5</label>
+                    км<br>
+                </p>
+                <p>
+                    <label id="time"> 3 </label>
+                    мин.<br>
+                </p>
+                <p>
+                    <label id="cost"> 25 </label>
+                    грн.<br>
+                </p>
+            </div>
+
+            <div class="labelsDescription">
+                <h3>Расстояние</h3>
+                <h3>Время</h3>
+                <h3>Стоимость</h3>
+            </div>
+
         </div>
 
-        <div id="distance"></div>
     </div>
 
     <div id="map"></div>
@@ -35,23 +58,18 @@
     <div>
         <div id="buttonStart">
             <h3>
+                <img src="assets/buttonStartIcon.png" width="47" height="20">
                 Старт
             </h3>
         </div>
         <div id="buttonFinish">
             <h3>
+                <img src="assets/buttonFinishIcon.png" width="27" height="33">
                 Финиш
             </h3>
         </div>
     </div>
 
-    <div class="text">
-        <label>
-            <input id="startLatitude" type="text" size="40">
-            <input id="startLongitude" type="text" size="40">
-            <button id="buttonTest"></button>
-        </label>
-    </div>
 </div>
 </body>
 </html>
