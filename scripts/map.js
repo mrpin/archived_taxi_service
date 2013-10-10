@@ -13,13 +13,12 @@ var map = null;
 //marker object
 var marker = null;
 
-//line object
-//var line = null;
 var lineId = false;
 
 //coords object
 var prevCoords = null;
 
+//geocoder object
 var geocoder;
 
 //options for getCurrentPosition
@@ -82,7 +81,6 @@ function initialize()
             }
 
             scrollMapToPosition(pointsCoords[i]);
-//            reverseGeocoding(pointsCoords[i]);
             prevCoords = pointsCoords[i];
         }
     });

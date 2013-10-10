@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/vendors/google.map.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/map.js" afterPath="$PROJECT_DIR$/scripts/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.less" afterPath="$PROJECT_DIR$/styles/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="taxi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +39,11 @@
       <file leaf-file-name="map.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="104" selection-start="4075" selection-end="4075" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1162#1194#0" expanded="false" />
-                <element signature="e#1451#1453#0" expanded="false" />
-                <element signature="e#2017#2066#0" expanded="false" />
+                <element signature="e#1147#1179#0" expanded="false" />
+                <element signature="e#1436#1438#0" expanded="false" />
+                <element signature="e#1953#2002#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="-41.4">
+            <state line="76" column="19" selection-start="952" selection-end="952" vertical-scroll-proportion="-45.6">
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="58" selection-start="719" selection-end="719" vertical-scroll-proportion="0.6373293">
+            <state line="21" column="32" selection-start="486" selection-end="486" vertical-scroll-proportion="0.47799698">
               <folding />
             </state>
           </provider>
@@ -143,52 +143,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="taxi-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,13 +335,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="17" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="36" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
@@ -406,9 +353,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="63" selection-start="727" selection-end="760" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1162#1194#0" expanded="false" />
-            <element signature="e#1451#1453#0" expanded="false" />
-            <element signature="e#2017#2066#0" expanded="false" />
+            <element signature="e#1147#1179#0" expanded="false" />
+            <element signature="e#1436#1438#0" expanded="false" />
+            <element signature="e#1953#2002#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -466,27 +413,27 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.less">
+    <entry file="file://$PROJECT_DIR$/scripts/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="-41.4">
-          <folding />
+        <state line="14" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1147#1179#0" expanded="false" />
+            <element signature="e#1436#1438#0" expanded="false" />
+            <element signature="e#1953#2002#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/map.js">
+    <entry file="file://$PROJECT_DIR$/styles/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="104" selection-start="4075" selection-end="4075" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1162#1194#0" expanded="false" />
-            <element signature="e#1451#1453#0" expanded="false" />
-            <element signature="e#2017#2066#0" expanded="false" />
-          </folding>
+        <state line="76" column="19" selection-start="952" selection-end="952" vertical-scroll-proportion="-45.6">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="58" selection-start="719" selection-end="719" vertical-scroll-proportion="0.6373293">
+        <state line="21" column="32" selection-start="486" selection-end="486" vertical-scroll-proportion="0.47799698">
           <folding />
         </state>
       </provider>
