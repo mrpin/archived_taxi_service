@@ -14,10 +14,13 @@ var map = null;
 var marker = null;
 
 //line object
-var line = null;
+//var line = null;
+var lineId = false;
 
 //coords object
 var prevCoords = null;
+
+var geocoder;
 
 //options for getCurrentPosition
 var getCurrentPositionOptions =
@@ -53,7 +56,7 @@ function initialize()
 //    if (navigator.geolocation)
 //    {
 //        navigator.geolocation.getCurrentPosition(onGetCurrentPositionComplete, onGetCurrentPositionError, getCurrentPositionOptions);
-//
+//    }
     $("#buttonStart").click(onButtonStartClicked);
     $("#buttonFinish").click(onButtonFinishClicked);
 //
@@ -63,7 +66,7 @@ function initialize()
 //        alert("No geolocation support!");
 //    }
 
-
+    geocoder = new google.maps.Geocoder();
     showMap(pointsCoords[i]);
     prevCoords = pointsCoords[0];
 
@@ -73,8 +76,13 @@ function initialize()
 
         if (i < pointsCoords.length)
         {
-            addLine(prevCoords, pointsCoords[i]);
+            if (lineId)
+            {
+                addLine(prevCoords, pointsCoords[i]);
+            }
+
             scrollMapToPosition(pointsCoords[i]);
+//            reverseGeocoding(pointsCoords[i]);
             prevCoords = pointsCoords[i];
         }
     });
@@ -134,9 +142,13 @@ function initialize()
 
 function resize()
 {
-    $("div.content").width($(window).width());
-    $("div.content").height($(window).height());
+    var content = $("div.content");
+    content.width($(window).width());
+    content.height($(window).height());
     $("#map").height($(window).height() - 250);
+    $("#buttonStart").width($(window).width() / 2 - 1);
+    $("#buttonFinish").width($(window).width() / 2 - 1);
+
 }
 
 //  ===BUTTON START===
@@ -144,6 +156,7 @@ function resize()
 function onButtonStartClicked()
 {
     addMarkerStart(pointsCoords[i]);
+    lineId = true;
 }
 
 
@@ -152,6 +165,7 @@ function onButtonStartClicked()
 function onButtonFinishClicked()
 {
     addMarkerFinish(pointsCoords[i]);
+    lineId = false;
 }
 
 //  ===ADDING MAP===
@@ -174,6 +188,7 @@ function showMap(coords)
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
     addMarker(googleLatAndLong);
+    reverseGeocoding(googleLatAndLong);
 }
 
 //  ===ADDING MARKERS===
@@ -254,7 +269,7 @@ function addLine(prevCoords, currentCoords)
 
     var lineCoords = [prev, cur];
 
-    line = new google.maps.Polyline
+    var line = new google.maps.Polyline
     ({
         path: lineCoords,
         strokeColor: '#000',
@@ -280,6 +295,40 @@ function scrollMapToPosition(coords)
     map.panTo(latlong);
 
     addMarker(latlong);
+    reverseGeocoding(latlong);
+}
+
+
+//  ===COORDS TO ADRESS
+
+function reverseGeocoding(latlong)
+{
+
+//    var latlong = new google.maps.LatLng(coords.latitude, coords.longitude);
+
+    geocoder.geocode(
+        {
+            'latLng': latlong
+        },
+
+        function (results, status)
+        {
+            if (status == google.maps.GeocoderStatus.OK)
+            {
+                if (results[0])
+                {
+                    $("#reverseGeocoding").html("Adress: " + results[0].formatted_address);
+                }
+                else
+                {
+                    alert('No results found');
+                }
+            }
+            else
+            {
+                alert('Geocoder failed due to: ' + status);
+            }
+        });
 }
 
 //  ===DISTANCE===

@@ -59,11 +59,16 @@ div.content
 
 .button
 {
-  width: 50%-(1px);
   height: 75px;
 
   float: left;
 
+  //TODO: buttons:active color
+  &:active
+  {
+    background-color: orange;
+    //    opacity: 0.3;
+  }
 
   h3
   {
@@ -89,16 +94,32 @@ div.content
 {
   border-right: 1px solid #95e274;
   .button;
+
+  &:active
+  {
+    border-right: 1px solid #fdf38a;
+  }
 }
 
 #buttonFinish
 {
   border-left: 1px solid #2b7f07;
   .button;
+
+  &:active
+  {
+    border-left: 1px solid #9f5e03;
+  }
 }
 
 #buttonTest
 {
   width: 100px;
   height: 50px;
+}
+
+#reverseGeocoding
+{
+  position: absolute;
+  top: 10px;
 }
