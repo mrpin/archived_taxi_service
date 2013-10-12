@@ -36,9 +36,17 @@ var distanceLastMinute = 0;
 
 var coordsStart = null;
 
-var rateDowntime = 40;               //price for downtime in     $/hour
-var rateCity = 10;                  //price for km on city      $/km
-var rateDowntimeCitySpeedLimit;     //
+var rateDowntime = 0;               //price for downtime in     $/hour
+var rateCity = 0;                  //price for km on city      $/km
+var rateDowntimeCitySpeedLimit = 0;     //
+
+var defaultRate =
+{
+    rate_downtime: 40,
+    rate_city: 10
+};
+
+setRate(defaultRate);
 
 //array of { latitude: longitude: }
 //var i = 0;
