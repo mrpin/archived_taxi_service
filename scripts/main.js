@@ -13,10 +13,11 @@ var map = null;
 //marker object
 var marker = null;
 
-var lineId = false;
+//for button start/finish
+var buttonWasClicked = false;
 
 //coords object
-var prevCoords = null;
+var coordsPrev = null;
 
 //geocoder object
 var geocoder;
@@ -28,112 +29,135 @@ var getCurrentPositionOptions =
     maximumAge: 0
 };
 
+var time = 0;
+var cost = 0;
+var distanceTotal = 0;
+var distanceLastMinute = 0;
+
+var coordsStart = null;
+
+var rateDowntime = 40;               //price for downtime in     $/hour
+var rateCity = 10;                  //price for km on city      $/km
+var rateDowntimeCitySpeedLimit;     //
 
 //array of { latitude: longitude: }
-var i = 0;
-var pointsCoords =
-    [
-        {latitude: 48.44381, longitude: 35.02231},
-        {latitude: 48.44361, longitude: 35.02401},
-        {latitude: 48.44322, longitude: 35.02507},
-        {latitude: 48.44539, longitude: 35.02701},
-        {latitude: 48.44792, longitude: 35.02935},
-        {latitude: 48.44746, longitude: 35.03157},
-        {latitude: 48.4497, longitude: 35.03389},
-        {latitude: 48.45193, longitude: 35.03667},
-        {latitude: 48.456, longitude: 35.04167},
-        {latitude: 48.45847, longitude: 35.04442},
-        {latitude: 48.46001, longitude: 35.04631},
-        {latitude: 48.46133, longitude: 35.04797},
-        {latitude: 48.46251, longitude: 35.04925}
-    ];
+//var i = 0;
+//var pointsCoords =
+//    [
+//        {latitude: 48.44381, longitude: 35.02231},
+//        {latitude: 48.44361, longitude: 35.02401},
+//        {latitude: 48.44322, longitude: 35.02507},
+//        {latitude: 48.44539, longitude: 35.02701},
+//        {latitude: 48.44792, longitude: 35.02935},
+//        {latitude: 48.44746, longitude: 35.03157},
+//        {latitude: 48.4497, longitude: 35.03389},
+//        {latitude: 48.45193, longitude: 35.03667},
+//        {latitude: 48.456, longitude: 35.04167},
+//        {latitude: 48.45847, longitude: 35.04442},
+//        {latitude: 48.46001, longitude: 35.04631},
+//        {latitude: 48.46133, longitude: 35.04797},
+//        {latitude: 48.46251, longitude: 35.04925}
+//    ];
 
 
 //  ===LOCATION===
 function initialize()
 {
-//    if (navigator.geolocation)
-//    {
-//        navigator.geolocation.getCurrentPosition(onGetCurrentPositionComplete, onGetCurrentPositionError, getCurrentPositionOptions);
-//    }
-    $("#buttonStart").click(onButtonStartClicked);
-    $("#buttonFinish").click(onButtonFinishClicked);
-//
-//    }
-//    else
-//    {
-//        alert("No geolocation support!");
-//    }
-
-    geocoder = new google.maps.Geocoder();
-    showMap(pointsCoords[i]);
-    prevCoords = pointsCoords[0];
-
-    $("#buttonTest").click(function ()
+    if (navigator.geolocation)
     {
-        i++;
+        navigator.geolocation.getCurrentPosition(onGetCurrentPositionComplete, onGetCurrentPositionError, getCurrentPositionOptions);
+    }
+    else
+    {
+        alert("No geolocation support!");
+    }
 
-        if (i < pointsCoords.length)
-        {
-            if (lineId)
-            {
-                addLine(prevCoords, pointsCoords[i]);
-            }
-
-            scrollMapToPosition(pointsCoords[i]);
-            prevCoords = pointsCoords[i];
-        }
-    });
+//    $("#buttonStartFinish").click(onButtonClicked);
+//    geocoder = new google.maps.Geocoder();
+//    showMap(pointsCoords[i]);
+//    coordsPrev = pointsCoords[0];
+//
+//    $("#buttonTest").click(function ()
+//    {
+//        i++;
+//
+//        if (i < pointsCoords.length)
+//        {
+//            if (buttonWasClicked)
+//            {
+//                addLine(coordsPrev, pointsCoords[i]);
+//            }
+//
+//            scrollMapToPosition(pointsCoords[i]);
+//            coordsPrev = pointsCoords[i];
+//        }
+//    });
 }
 
-//function onGetCurrentPositionComplete(position)
-//{
-//    var latitude = position.coords.latitude;
-//    var longitude = position.coords.longitude;
-//
-//    $("#mylocation").html("Your latitude = " + latitude + ", longitude = " + longitude + " with " + position.coords.accuracy + " meters accuracy");
-//
-////    var km = computeDistance(prevCoords, position.coords);
-////    $("#distance").html("Distance = " + km + "km");
-//
-//
-//    if (map == null)
-//    {
-//        showMap(position.coords);
-//        prevCoords = position.coords;
-//    }
-//    else
-//    {
-//        var meters = computeDistance(position.coords, prevCoords) * 1000;
-//
-//        if (meters > 5)
-//        {
-//            scrollMapToPosition(position.coords);
-//            prevCoords = position.coords;
-//        }
-//    }
-//
-//}
-//
-//function onGetCurrentPositionError(error)
-//{
-//    var errorTypes =
-//    {
-//        0: "Unknown error",
-//        1: "Permission denied by user",
-//        2: "Position is not available",
-//        3: "Request timed out"
-//    };
-//
-//    var errorMessage = errorTypes[error.code];
-//
-//    if (error.code == 0 || error.code == 2)
-//    {
-//        errorMessage = errorMessage + " " + error.message;
-//    }
-//
-//    $("#error").html(errorMessage);
-//}
+function onGetCurrentPositionComplete(position)
+{
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+
+    if (map == null)
+    {
+        geocoder = new google.maps.Geocoder();
+
+        showMap(position.coords);
+        coordsPrev = position.coords;
+
+        //register event listener
+        $("#buttonStartFinish").click(onButtonClicked);
+    }
+    else
+    {
+        var meters = computeDistance(position.coords, coordsPrev) * 1000;
+
+        if (meters > 5)
+        {
+            if (buttonWasClicked)
+            {
+                addLine(coordsPrev, position.coords);
+            }
+            scrollMapToPosition(position.coords);
+            coordsPrev = position.coords;
+        }
+    }
+
+}
+
+function onGetCurrentPositionError(error)
+{
+    var errorTypes =
+    {
+        0: "Unknown error",
+        1: "Permission denied by user",
+        2: "Position is not available",
+        3: "Request timed out"
+    };
+
+    var errorMessage = errorTypes[error.code];
+
+    if (error.code == 0 || error.code == 2)
+    {
+        errorMessage = errorMessage + " " + error.message;
+    }
+
+    $("#error").html(errorMessage);
+}
+
+
+function setRate(rateParams)
+{
+    assert(rateParams != null);
+    assert(rateParams.hasOwnProperty("rate_downtime"), "Please add property rate_downtime");
+    assert(rateParams.hasOwnProperty("rate_city"), "Please add property rate_city");
+
+    rateDowntime = rateParams["rate_downtime"];
+    rateCity = rateParams["rate_city"];
+
+    rateDowntimeCitySpeedLimit = rateDowntime / rateCity;
+}
 
 
 // ===SETTING SIZE OF CONTENT AND MAP
@@ -144,26 +168,68 @@ function resize()
     content.width($(window).width());
     content.height($(window).height());
     $("#map").height($(window).height() - 250);
-    $("#buttonStart").width($(window).width() / 2 - 1);
-    $("#buttonFinish").width($(window).width() / 2 - 1);
-
 }
 
-//  ===BUTTON START===
+//  ===BUTTON START/FINISH
 
-function onButtonStartClicked()
+function onButtonClicked()
 {
-    addMarkerStart(pointsCoords[i]);
-    lineId = true;
+    if (!buttonWasClicked)
+    {
+        //save last coords for compute model
+        coordsStart = coordsPrev;
+
+        time = 0;
+        distanceTotal = 0;
+        distanceLastMinute = 0;
+        cost = 0;
+
+        updateView();
+
+        setInterval(update, 60 * 1000);
+
+        addMarkerStart(coords);
+
+        $("#buttonStartFinish").html("<h3><img src='/assets/buttonFinishIcon.png' width='27' height='33'>Финиш</h3>");
+    }
+    else
+    {
+        addMarkerFinish(coords);
+        $("#buttonStartFinish").html("<h3><img src='/assets/buttonStartIcon.png' width='47' height='20'>Старт</h3>");
+    }
+
+    buttonWasClicked = !buttonWasClicked;
 }
 
-
-//  ===BUTTON FINISH==
-
-function onButtonFinishClicked()
+function update()
 {
-    addMarkerFinish(pointsCoords[i]);
-    lineId = false;
+    updateModel();
+    updateView();
+}
+
+function updateModel()
+{
+    distanceTotal = computeDistance(coordsStart, coordsPrev);
+    time++;
+
+    var speed = distanceTotal - distanceLastMinute;
+    if ((speed * 6 / 100) < rateDowntimeCitySpeedLimit)
+    {
+        cost += speed * rateDowntime;
+    }
+    else
+    {
+        cost += speed * rateCity;
+    }
+
+    distanceLastMinute = distanceTotal;
+}
+
+function updateView()
+{
+    $("#distance").html(distanceTotal);
+    $("#time").html(time);
+    $("#cost").html(cost);
 }
 
 //  ===ADDING MAP===
@@ -212,9 +278,9 @@ function addMarker(latlong)
     marker = new google.maps.Marker(markerOptions);
 }
 
-function addMarkerStart(latlong)
+function addMarkerStart(coords)
 {
-    var latlongStart = new google.maps.LatLng(latlong.latitude, latlong.longitude);
+    var latlongStart = new google.maps.LatLng(coords.latitude, coords.longitude);
 
     var markerIcon = new google.maps.MarkerImage
         (
