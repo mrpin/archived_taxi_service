@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -17,7 +16,7 @@
     <file path="$USER_HOME$/WebstormProjects/mapsForTaxi/javascript/javascript/map.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381065286434" ignored="false" />
     <file path="$USER_HOME$/WebstormProjects/mapsForTaxi/index.html" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381065858358" ignored="false" />
     <file path="/Params.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381583427050" ignored="false" />
-    <file path="/main.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1382138259165" ignored="false" />
+    <file path="/main.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1382140622558" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="416" column="23" selection-start="9282" selection-end="9282" vertical-scroll-proportion="9.16952">
+            <state line="26" column="26" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#917#935#0" expanded="false" />
-                <element signature="e#1782#1831#0" expanded="false" />
-                <element signature="e#2575#2618#0" expanded="false" />
+                <element signature="e#851#869#0" expanded="false" />
+                <element signature="e#1713#1762#0" expanded="false" />
+                <element signature="e#2506#2549#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -68,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="-6.375">
+            <state line="18" column="57" selection-start="494" selection-end="494" vertical-scroll-proportion="0.05631399">
               <folding />
             </state>
           </provider>
@@ -106,8 +105,8 @@
         <option value="$PROJECT_DIR$/scripts/Debug.js" />
         <option value="$PROJECT_DIR$/scripts/debug.js" />
         <option value="maps.gstatic.com/intl/en_us/mapfiles/api-3/14/9/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -374,7 +373,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -389,9 +388,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="63" selection-start="727" selection-end="760" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#917#935#0" expanded="false" />
-            <element signature="e#1782#1831#0" expanded="false" />
-            <element signature="e#2575#2618#0" expanded="false" />
+            <element signature="e#851#869#0" expanded="false" />
+            <element signature="e#1713#1762#0" expanded="false" />
+            <element signature="e#2506#2549#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -463,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="-6.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="http://maps.gstatic.com/intl/en_us/mapfiles/api-3/14/9/main.js">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
@@ -477,12 +469,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="416" column="23" selection-start="9282" selection-end="9282" vertical-scroll-proportion="9.16952">
+        <state line="26" column="26" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#917#935#0" expanded="false" />
-            <element signature="e#1782#1831#0" expanded="false" />
-            <element signature="e#2575#2618#0" expanded="false" />
+            <element signature="e#851#869#0" expanded="false" />
+            <element signature="e#1713#1762#0" expanded="false" />
+            <element signature="e#2506#2549#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="57" selection-start="494" selection-end="494" vertical-scroll-proportion="0.05631399">
+          <folding />
         </state>
       </provider>
     </entry>

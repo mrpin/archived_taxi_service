@@ -2,9 +2,7 @@ $(document).ready(onLoad);
 
 function onLoad()
 {
-
     resize();
-    updateLocation({latitude:48.4440896, longitude:35.0224676});
 
     //register event listener
     $("#buttonStartFinish").click(onButtonClicked);
@@ -85,10 +83,10 @@ function updateLocation(coords)
     {
         if (buttonWasClicked)
         {
-            addLine(coordsPrev, latlong);
+            addLine(coordsPrev, coords);
         }
-        scrollMapToPosition(latlong);
-        coordsPrev = latlong;
+        scrollMapToPosition(coords);
+        coordsPrev = coords;
     }
 }
 
@@ -173,6 +171,8 @@ function resize()
 
 function onButtonClicked()
 {
+//    updateLocation({latitude:48.4440896, longitude:35.0224676});
+
     if (!buttonWasClicked)
     {
         //save last coords for compute model
