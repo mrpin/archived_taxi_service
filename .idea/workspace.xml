@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.less" afterPath="$PROJECT_DIR$/styles/style.less" />
     </list>
     <ignored path="taxi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,19 +58,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="979" selection-end="979" vertical-scroll-proportion="-22.88">
+            <state line="36" column="14" selection-start="500" selection-end="500" vertical-scroll-proportion="0.9230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="57" selection-start="494" selection-end="494" vertical-scroll-proportion="0.05631399">
+            <state line="33" column="52" selection-start="857" selection-end="857" vertical-scroll-proportion="-10.125">
               <folding />
             </state>
           </provider>
@@ -99,7 +99,6 @@
         <option value="$PROJECT_DIR$/yurko/index.html" />
         <option value="$PROJECT_DIR$/yurko/javascript/controlMap.js" />
         <option value="maps.gstatic.com/intl/en_us/mapfiles/api-3/14/7/main.js" />
-        <option value="$PROJECT_DIR$/styles/style.less" />
         <option value="$PROJECT_DIR$/scripts/map.js" />
         <option value="$PROJECT_DIR$/scripts/Params.js" />
         <option value="$PROJECT_DIR$/scripts/Debug.js" />
@@ -107,6 +106,7 @@
         <option value="maps.gstatic.com/intl/en_us/mapfiles/api-3/14/9/main.js" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/style.less" />
       </list>
     </option>
   </component>
@@ -448,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="979" selection-end="979" vertical-scroll-proportion="-22.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/debug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="9" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
@@ -480,7 +473,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="494" selection-end="494" vertical-scroll-proportion="0.05631399">
+        <state line="33" column="52" selection-start="857" selection-end="857" vertical-scroll-proportion="-10.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="14" selection-start="500" selection-end="500" vertical-scroll-proportion="0.9230769">
           <folding />
         </state>
       </provider>
