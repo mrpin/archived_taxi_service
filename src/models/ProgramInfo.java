@@ -37,12 +37,7 @@ public class ProgramInfo
      * Properties
      */
 
-    private boolean isNetworkConnected()
-    {
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo ni = cm.getActiveNetworkInfo();
-        return ni != null;
-    }
+
 
 
 }

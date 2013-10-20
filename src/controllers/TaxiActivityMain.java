@@ -53,6 +53,13 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
         return _locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
     }
 
+    private boolean isNetworkConnected()
+    {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo ni = cm.getActiveNetworkInfo();
+        return ni != null;
+    }
+
     /**
      * Called when the activity is first created.
      */
@@ -62,15 +69,18 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+
+
         _textView = (TextView) findViewById(R.id.textView);
-        _buttonGPS = (Button) findViewById(R.id.buttonGPS);
-        _buttonGPS.setOnClickListener(this);
+
+        _textView.setText(String.format("Cтоимость: %f", 15.0));
+//        _textView = (TextView) findViewById(R.id.textView);
+//        _buttonGPS = (Button) findViewById(R.id.buttonGPS);
+//        _buttonGPS.setOnClickListener(this);
         _locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
         _rateDowntime = 15;
         _rateCity = 26;
-
-
     }
 
     private void recreateWebView()
@@ -95,11 +105,11 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
     {
         super.onResume();
 
-        recreateWebView();
+//        recreateWebView();
 
-        updateView();
+//        updateView();
 
-        updateListener();
+//        updateListener();
     }
 
     public void onPause()
