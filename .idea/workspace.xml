@@ -1,22 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="targetHashString" value="android-10" />
+        <option name="theme" value="Theme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-18" />
+        <option name="theme" value="Theme" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.less" afterPath="$PROJECT_DIR$/styles/style.less" />
-    </list>
+    <list default="true" id="174a7852-a29a-4c74-9613-17d6fc323518" name="Default" comment="" />
     <ignored path="taxi.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1382137652203" ignored="false" />
-    <file path="/style.css" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1380648600030" ignored="false" />
-    <file path="/map.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381585222668" ignored="false" />
-    <file path="$USER_HOME$/exercises/hfhtml5_noVideo/chapter5/myLoc.html" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1380807965536" ignored="false" />
-    <file path="/style.less" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381583100635" ignored="false" />
-    <file path="/Dummy.txt" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1382134016547" ignored="false" />
-    <file path="$USER_HOME$/WebstormProjects/mapsForTaxi/javascript/javascript/map.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381065286434" ignored="false" />
-    <file path="$USER_HOME$/WebstormProjects/mapsForTaxi/index.html" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381065858358" ignored="false" />
-    <file path="/Params.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1381583427050" ignored="false" />
-    <file path="/main.js" changelist="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" time="1382140622558" ignored="false" />
+    <file path="/a.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381575323944" ignored="false" />
+    <file path="/a.less" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381575343535" ignored="false" />
+    <file path="/a.java" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382186271353" ignored="false" />
+    <file path="/sample.java" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381591343982" ignored="false" />
+    <file path="/fragment.java" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382187936903" ignored="false" />
+    <file path="/TaxiActivity.java" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382178628075" ignored="false" />
+    <file path="/a.xml" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381591333436" ignored="false" />
+    <file path="/main.xml" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382174139227" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382134499228" ignored="false" />
+    <file path="/Dummy.txt" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381991987548" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/Preloader.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996091214" ignored="false" />
+    <file path="/Preloader.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381689571448" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/assets/graphics.swc!/catalog.xml" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381753227234" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/assets/graphics.swc!/library.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381753227234" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/popups/bonus/ControlPopupBonus.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381689722865" ignored="false" />
+    <file path="/ControlPopupBonus.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381689716133" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/models/GameInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381745207763" ignored="false" />
+    <file path="/GameInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744527248" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/scenes/map/ControlSceneMap.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381746060337" ignored="false" />
+    <file path="/ControlSceneMap.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381746053740" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/scenes/map/scene/ControlButtonStationTooltip.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381689949823" ignored="false" />
+    <file path="/ControlButtonStationTooltip.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381689945563" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/models/proxy/ManagerProxyCrosswords.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381693705289" ignored="false" />
+    <file path="/ManagerProxyCrosswords.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381693695233" ignored="false" />
+    <file path="/ControlPopupHelp.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691279530" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/popups/help/ControlPopupHelp.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691396852" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/models/string/EStringType.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381690191661" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/models/string/ManagerString.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381690249097" ignored="false" />
+    <file path="/a.dummy" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381990950833" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/Constants.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381690885022" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/scenes/game/views/ControlSceneGameView.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381693973875" ignored="false" />
+    <file path="/ControlSceneGameView.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381690708541" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/controllers/bonus/ControlPopupBWFBonus1.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691035119" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/controllers/help/ControlPopupBWFHelp0.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691227701" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/controls/implementations/popups/help/ControlPopupHelpBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691242815" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/controllers/help/ControlPopupBWFHelp1.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691263951" ignored="false" />
+    <file path="/ControlPopupHelpBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691198049" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/models/string/ManagerStringBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381751586546" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/src/controllers/scenes/game/ControlSceneGame.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381933173509" ignored="false" />
+    <file path="/ControlSceneGame.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381931796312" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/controls/implementations/scenes/base/ControlSceneBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691869865" ignored="false" />
+    <file path="/ControlSceneBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381691688366" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/scenes/game/ControlSceneGame.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381692043434" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/scenes/game/views/ControlBottomPanel.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381693926570" ignored="false" />
+    <file path="/ControlBottomPanel.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381693912172" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/scenes/game/views/ControlCrosswordWordImage.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381693973875" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/players/ManagerPlayersBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/ok_debug.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381909320628" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/advertising/Tools.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381737770403" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/advertising/WM.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381735616892" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/advertising/Advertising.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752306764" ignored="false" />
+    <file path="/fragment.js2" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382142107194" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/IManagerAd.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381737169351" ignored="false" />
+    <file path="/IManagerAd.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752806180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/controllers/ad/ControlPopupBWFAd0.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381848397963" ignored="false" />
+    <file path="/ControlPopupBWFAd0.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381753026123" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/ad/ManagerAdBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752839517" ignored="false" />
+    <file path="/ManagerAdBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752827964" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/remote/ManagerRemoteBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381736845029" ignored="false" />
+    <file path="/GameInfoBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381737102699" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/GameInfoBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354083" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/popups/ad/ControlPopupAd.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381750295590" ignored="false" />
+    <file path="/ControlPopupAd.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381750295590" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/controllers/popups/EPopupType.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381737523673" ignored="false" />
+    <file path="/EPopupType.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381737522827" ignored="false" />
+    <file path="/Advertising.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381737633667" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/ad/IManagerAd.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752849763" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/ad/IAdInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381749733261" ignored="false" />
+    <file path="/IAdInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381749731391" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/ad/AdInfoBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381751478759" ignored="false" />
+    <file path="/AdInfoBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381751458404" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/flowerOK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381739234117" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/flowerVK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381739252472" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/flowerOK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381739573315" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/vk_debug.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381837704616" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/pyatnashki (1).as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381741838307" ignored="false" />
+    <file path="/pyatnashki (1).as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381741780462" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/models/proxy/IManagerProxy.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744333765" ignored="false" />
+    <file path="/IManagerProxy.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744240397" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/models/proxy/ManagerProxyBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381745818061" ignored="false" />
+    <file path="/ManagerProxyBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744917751" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/players/PlayerInfoBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/players/IManagerPlayers.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/controllers/top/ControlPopupBWFTop0.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/controls/implementations/popups/top/ControlPopupTopBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/players/IPlayerInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744354084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/social/managers/SocialManagerOffline.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744376420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/social/managers/SocialManagerVK.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744376420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/social/ESocialNetworkType.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744376420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/social/managers/SocialManagerBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744376420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/social/managers/SocialManagerOK.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381744376420" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/models/proxy/RemoteParamsBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381837336963" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/controls/IControlButtonWithLabels.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381746302694" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/bwf/models/string/EStringTypeBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381746337070" ignored="false" />
+    <file path="/EStringTypeBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381746334011" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/interfaces/social/ISocialUser.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381749504285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/social/SocialUserBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381749893645" ignored="false" />
+    <file path="/SocialUserBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381749888980" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/remote/ERemoteResponseTypeBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752438280" ignored="false" />
+    <file path="/ERemoteResponseTypeBase.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381752438280" ignored="false" />
+    <file path="/RemoteParamsBWF.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381837336963" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/models/data/CharInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381753262864" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/adWrapperOK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381755569942" ignored="false" />
+    <file path="/adWrapperOK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381755567654" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/findcoteOK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381754991406" ignored="false" />
+    <file path="/findcoteOK.php" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381754991406" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/ok_debug.html" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381757333075" ignored="false" />
+    <file path="/ok_debug.html" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381757330201" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/ok_release.html" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381760194196" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/offline_debug.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381837704616" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/bin/ok_release.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381837704616" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.crosswords/src/models/data/LevelInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381909251049" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.wildstyle/main.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921486144" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.wildstyle/models/game/EScreenPosition.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921780515" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.wildstyle/models/game/ManagerGame.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921791374" ignored="false" />
+    <file path="/ManagerGame.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921791374" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.wildstyle/controllers/scenes/game/views/ControlBikeView.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921765340" ignored="false" />
+    <file path="/ControlBikeView.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921765340" ignored="false" />
+    <file path="/EScreenPosition.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381921780515" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/main.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381929912281" ignored="false" />
+    <file path="/main.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381924742448" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/fruitninja/scission.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381923285488" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/fruitninja/main.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381990311008" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/fruitninja/EFruitDirection.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381924690972" ignored="false" />
+    <file path="/EFruitDirection.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381924687131" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/models/game/ManagerGame.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381990311008" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/assets/graphics.swc!/catalog.xml" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381932711476" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/src/controllers/scenes/game/views/ControlFriendProgressView.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381930622202" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/src/models/GameInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381930629506" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/src/controllers/scenes/game/views/ControlSceneGameView.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381930647023" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/src/models/proxy/ManagerProxy.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381932288041" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/bin/ok_debug.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381933908874" ignored="false" />
+    <file path="/ManagerProxy.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381932288041" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/bin/vk_debug.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381933908881" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/bin/ok_release.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381933908881" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.bwf.guessfaster/bin/vk_release.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381933908881" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/core/Object.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381937667860" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/models/ManagerViewController.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381937667860" ignored="false" />
+    <file path="$PROJECT_DIR$/../../lua/com.bwf.unikitty/models/GameInfo.lua" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381937667860" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.flash-sdks/game-sdk/src/models/implementations/remote/RemoteConnector.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381991116227" ignored="false" />
+    <file path="/RemoteConnector.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381991094770" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/Main.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381995864525" ignored="false" />
+    <file path="/Main.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382141900880" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/assets/graphics_source.swc!/catalog.xml" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996293288" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/controllers/scenes/village/views/ControlSceneVillageView.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996373368" ignored="false" />
+    <file path="/ControlSceneVillageView.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381995945821" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/proxy/ManagerProxySoldiers.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996021913" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/remote/ManagerRemoteStub.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381995992745" ignored="false" />
+    <file path="/ManagerProxySoldiers.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996021049" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/game/ManagerGameSoldiers.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996041275" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/data/LevelInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996065026" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/data/housesG/base/HouseInfoG.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996103052" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/data/soldiers/SoldierInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996120415" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/models/GameInfo.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381997529694" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/assets/graphics_source.swc!/library.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996293288" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/bin/offline_debug.swf" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381997577862" ignored="false" />
+    <file path="$PROJECT_DIR$/../../flash/com.cowplay.soldiers-wars/src/controllers/scenes/village/views/ControlSceneVillageUI.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381997549102" ignored="false" />
+    <file path="/ControlSceneVillageUI.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1381996839061" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../bwf/flash/watson/src/watson/Main.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382173683920" ignored="false" />
+    <file path="/MyJavaScriptInterfaceM.java" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382136376441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../bwf/flash/watson/src/watson/models/proxy/ManagerProxy.as" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382141776670" ignored="false" />
+    <file path="/index.html" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382166574859" ignored="false" />
+    <file path="/main.js" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382166606726" ignored="false" />
+    <file path="/ProgramInfo.java" changelist="174a7852-a29a-4c74-9613-17d6fc323518" time="1382188521953" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,47 +204,142 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/controllers/TaxiActivityMain.java" line="61" class="controllers.TaxiActivityMain" package="controllers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="taxi" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/main.js">
+      <file leaf-file-name="TaxiActivityMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/TaxiActivityMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+            <state line="72" column="0" selection-start="2122" selection-end="2122" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgramInfo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/models/ProgramInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="47" selection-start="692" selection-end="692" vertical-scroll-proportion="0.605449">
               <folding>
-                <element signature="e#851#869#0" expanded="false" />
-                <element signature="e#1713#1762#0" expanded="false" />
-                <element signature="e#2506#2549#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debug.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/debug.js">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+            <state line="20" column="19" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/style.less">
+      <file leaf-file-name="TaxiActivityNoInternet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/TaxiActivityNoInternet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="14" selection-start="500" selection-end="500" vertical-scroll-proportion="0.9230769">
+            <state line="17" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/string.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="52" selection-start="857" selection-end="857" vertical-scroll-proportion="-10.125">
+            <state line="19" column="1" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyJavaScriptInterfaceM.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/MyJavaScriptInterfaceM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="3" selection-start="186" selection-end="789" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationListener.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/location/LocationListener.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="33" selection-start="163" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,47 +352,110 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/styles/style.css" />
-        <option value="$PROJECT_DIR$/yurko/styles/styles.less" />
-        <option value="$PROJECT_DIR$/yurko/index.html" />
-        <option value="$PROJECT_DIR$/yurko/javascript/controlMap.js" />
-        <option value="maps.gstatic.com/intl/en_us/mapfiles/api-3/14/7/main.js" />
-        <option value="$PROJECT_DIR$/scripts/map.js" />
-        <option value="$PROJECT_DIR$/scripts/Params.js" />
-        <option value="$PROJECT_DIR$/scripts/Debug.js" />
-        <option value="$PROJECT_DIR$/scripts/debug.js" />
-        <option value="maps.gstatic.com/intl/en_us/mapfiles/api-3/14/9/main.js" />
-        <option value="$PROJECT_DIR$/scripts/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/styles/style.less" />
+        <option value="$PROJECT_DIR$/gen/com/mrpin/taxi/R.java" />
+        <option value="$PROJECT_DIR$/gen/com/mrpin/taxi/Manifest.java" />
+        <option value="$PROJECT_DIR$/gen/com/mrpin/taxi/BuildConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/mrpin/taxi/M.java" />
+        <option value="$PROJECT_DIR$/src/com/mrpin/taxi/MyJavaScriptInterfaceM.java" />
+        <option value="$PROJECT_DIR$/assets/scripts/string.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/assets/index.html" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/mrpin/taxi/TaxiActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/mrpin/taxi/TaxiMainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/mrpin/taxi/TaxiActivityNoInternet.java" />
+        <option value="$PROJECT_DIR$/src/taxi/TaxiActivityMain.java" />
+        <option value="$PROJECT_DIR$/src/models/ProgramInfo.java" />
+        <option value="$PROJECT_DIR$/src/controllers/TaxiActivityMain.java" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
+    <option name="x" value="144" />
     <option name="y" value="22" />
-    <option name="width" value="1772" />
-    <option name="height" value="1178" />
+    <option name="width" value="1640" />
+    <option name="height" value="1160" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Facelet format detection</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Lua</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Performance issuesLua</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -134,7 +466,7 @@
       <flattenPackages />
       <showMembers />
       <showModules />
-      <showLibraryContents ProjectPane="true" />
+      <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
@@ -142,7 +474,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,7 +489,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="taxi-service" />
+              <option name="myItemId" value="taxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -167,11 +499,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="taxi-service" />
+              <option name="myItemId" value="taxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,7 +517,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="taxi-service" />
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -191,36 +613,162 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../page-proofs/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/styles" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scripts/vendors" />
-      <recent name="C:\Users\JEKA\workspace\taxi-service\yurko\styles" />
-      <recent name="C:\Users\JEKA\workspace\taxi-service\yurko\javascript" />
+      <recent name="$PROJECT_DIR$/src/taxi" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.taxi">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+  <component name="RunManager" selected="Android Application.TaxiActivity">
+    <configuration default="false" name="TaxiActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="taxi" />
+      <option name="ACTIVITY_CLASS" value="com.mrpin.taxi.TaxiActivityMain" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -230,84 +778,97 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="taxi" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="firefox" />
-        <option name="fileUrl" value="file://$PROJECT_DIR$/index.html" />
-      </JSDebuggerConfigurationSettings>
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.taxi" />
+    <configuration default="false" name="taxi" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="taxi" />
+      <option name="ACTIVITY_CLASS" value="com.mrpin.taxi.TaxiActivityMain" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.taxi" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.TaxiActivity" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Android Application.TaxiActivity" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e1fa0547-2b85-4d57-a1af-dea709e3b3e8" name="Default" comment="" />
-      <created>1380644615934</created>
-      <updated>1380644615934</updated>
+      <changelist id="174a7852-a29a-4c74-9613-17d6fc323518" name="Default" comment="" />
+      <created>1381575240156</created>
+      <updated>1381575240156</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1772" height="1178" extended-state="0" />
+    <frame x="144" y="22" width="1640" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924527" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2046884" sideWeight="0.6018868" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39811322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32830188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968633" sideWeight="0.6701923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29799247" sideWeight="0.60096157" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21518193" sideWeight="0.60096157" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998747" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -369,122 +930,200 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="4" />
-    </breakpoint-manager>
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="50" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="63" selection-start="727" selection-end="760" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#851#869#0" expanded="false" />
-            <element signature="e#1713#1762#0" expanded="false" />
-            <element signature="e#2506#2549#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="997" column="0" selection-start="15717" selection-end="15717" vertical-scroll-proportion="0.33221477" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1887" column="22" selection-start="33734" selection-end="33734" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/cssreset.css">
+    <entry file="file://$PROJECT_DIR$/ant.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/markerIconWithShadow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/vendors/less-1.3.3.min.js">
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/view/ViewGroup.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="277" column="36" selection-start="13432" selection-end="13444" vertical-scroll-proportion="0.28082192" />
       </provider>
     </entry>
-    <entry file="http://maps.gstatic.com/intl/en_us/mapfiles/api-3/14/7/main.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/markerIconFinish.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/markerIconStart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/vendors/jquery-2.0.3.min.js">
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/webkit/WebView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="177" column="64" selection-start="7437" selection-end="7437" vertical-scroll-proportion="0.3321918" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/debug.js">
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/widget/TextView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.15410958" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/widget/Button.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="45" selection-start="228" selection-end="228" vertical-scroll-proportion="0.15075377" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="35" selection-start="4939" selection-end="4974" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.23817864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="120" selection-start="614" selection-end="614" vertical-scroll-proportion="-0.2827225" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/location/LocationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="163" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="http://maps.gstatic.com/intl/en_us/mapfiles/api-3/14/9/main.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+        <state line="20" column="19" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TaxiActivityNoInternet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../sdks-android/4.3/platforms/android-10/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="28" selection-start="12622" selection-end="12622" vertical-scroll-proportion="0.40061477" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TaxiActivityMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2122" selection-end="2122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MyJavaScriptInterfaceM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="3" selection-start="186" selection-end="789" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/ProgramInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="47" selection-start="692" selection-end="692" vertical-scroll-proportion="0.605449">
           <folding>
-            <element signature="e#851#869#0" expanded="false" />
-            <element signature="e#1713#1762#0" expanded="false" />
-            <element signature="e#2506#2549#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="857" selection-end="857" vertical-scroll-proportion="-10.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="14" selection-start="500" selection-end="500" vertical-scroll-proportion="0.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (taxi)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>game-sdk-assets</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 2.3.3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>taxi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>LuaJ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
