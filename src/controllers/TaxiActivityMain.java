@@ -34,13 +34,14 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
 {
     private static String URL_SERVER = "http://213.160.139.178:22080/srvprivat/";
 
-    private WebView _webView;
-    private TextView _textView;
-    private Button _buttonGPS;
     private LocationManager _locationManager;
 
-    private float _rateDowntime;
-    private float _rateCity;
+    private WebView _webView;
+//    private TextView _textView;
+//    private Button _buttonGPS;
+
+//    private float _rateDowntime;
+//    private float _rateCity;
 
     /*
      * Properties
@@ -71,16 +72,14 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
 
 
 
-        _textView = (TextView) findViewById(R.id.textView);
-
-        _textView.setText(String.format("Cтоимость: %f", 15.0));
+//        _textView.setText(String.format("Cтоимость: %f", 15.0));
 //        _textView = (TextView) findViewById(R.id.textView);
 //        _buttonGPS = (Button) findViewById(R.id.buttonGPS);
 //        _buttonGPS.setOnClickListener(this);
         _locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
-        _rateDowntime = 15;
-        _rateCity = 26;
+//        _rateDowntime = 15;
+//        _rateCity = 26;
     }
 
     private void recreateWebView()
@@ -122,9 +121,9 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
 
     private void setRate()
     {
-        String rateParams = String.format("{rate_downtime: %f, rate_city: %f}", _rateDowntime, _rateCity);
-        String jsCode = String.format("javascript:setRate(%s);", rateParams);
-        _webView.loadUrl(jsCode);
+//        String rateParams = String.format("{rate_downtime: %f, rate_city: %f}", _rateDowntime, _rateCity);
+//        String jsCode = String.format("javascript:setRate(%s);", rateParams);
+//        _webView.loadUrl(jsCode);
     }
 
     private void updateListener()
@@ -153,26 +152,26 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
 
     private void updateView()
     {
-        boolean isNetworkAvailable = isNetworkConnected();
-        boolean isGPSAvailable = isGPSEnabled();
+//        boolean isNetworkAvailable = isNetworkConnected();
+//        boolean isGPSAvailable = isGPSEnabled();
 
-        _webView.setVisibility((isGPSAvailable && isNetworkAvailable) ? View.VISIBLE : View.GONE);
-        _textView.setVisibility((isGPSAvailable && isNetworkAvailable) ? View.GONE : View.VISIBLE);
-        _buttonGPS.setVisibility(isGPSAvailable ? View.GONE : View.VISIBLE);
+//        _webView.setVisibility((isGPSAvailable && isNetworkAvailable) ? View.VISIBLE : View.GONE);
+//        _textView.setVisibility((isGPSAvailable && isNetworkAvailable) ? View.GONE : View.VISIBLE);
+//        _buttonGPS.setVisibility(isGPSAvailable ? View.GONE : View.VISIBLE);
 
-        if (!isNetworkAvailable && !isGPSAvailable)
-        {
-            _textView.setText("Нет интернета. GPS disabled.");
-        }
-        else if (!isGPSAvailable)
-        {
-            _textView.setText("Активируйте GPS.");
-
-        }
-        else if (!isNetworkAvailable)
-        {
-            _textView.setText("Нет интернета.");
-        }
+//        if (!isNetworkAvailable && !isGPSAvailable)
+//        {
+//            _textView.setText("Нет интернета. GPS disabled.");
+//        }
+//        else if (!isGPSAvailable)
+//        {
+//            _textView.setText("Активируйте GPS.");
+//
+//        }
+//        else if (!isNetworkAvailable)
+//        {
+//            _textView.setText("Нет интернета.");
+//        }
     }
 
 
@@ -211,10 +210,10 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
     @Override
     public void onClick(View view)
     {
-        if (view == _buttonGPS)
-        {
-            startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
-        }
+//        if (view == _buttonGPS)
+//        {
+//            startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
+//        }
     }
     /*
      * LocationListener
