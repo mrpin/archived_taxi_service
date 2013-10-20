@@ -24,13 +24,6 @@ var coordsPrev = null;
 //geocoder object
 var geocoder;
 
-//options for getCurrentPosition
-//var getCurrentPositionOptions =
-//{
-//    enableHighAccuracy: true,
-//    maximumAge: 0
-//};
-
 var time = 0;
 var cost = 0;
 var distanceTotal = 0;
@@ -49,20 +42,6 @@ var defaultRate =
 };
 
 setRate(defaultRate);
-
-
-//  ===LOCATION===
-//function initialize()
-//{
-//    if (navigator.geolocation)
-//    {
-//        navigator.geolocation.getCurrentPosition(onGetCurrentPositionComplete, onGetCurrentPositionError, getCurrentPositionOptions);
-//    }
-//    else
-//    {
-//        alert("No geolocation support!");
-//    }
-//}
 
 function updateLocation(coords)
 {
@@ -89,60 +68,6 @@ function updateLocation(coords)
         coordsPrev = coords;
     }
 }
-
-
-//function onGetCurrentPositionComplete(position)
-//{
-//    var latitude = position.coords.latitude;
-//    var longitude = position.coords.longitude;
-//
-//    //register event listener
-//    $("#buttonStartFinish").click(onButtonClicked);
-//
-//    if (map == null)
-//    {
-//        geocoder = new google.maps.Geocoder();
-//
-//        showMap(position.coords);
-//        coordsPrev = position.coords;
-//    }
-//    else
-//    {
-//        var meters = computeDistance(position.coords, coordsPrev) * 1000;
-//
-//        if (meters > 5)
-//        {
-//            if (buttonWasClicked)
-//            {
-//                addLine(coordsPrev, position.coords);
-//            }
-//            scrollMapToPosition(position.coords);
-//            coordsPrev = position.coords;
-//        }
-//    }
-//
-//}
-
-//function onGetCurrentPositionError(error)
-//{
-//    var errorTypes =
-//    {
-//        0: "Unknown error",
-//        1: "Permission denied by user",
-//        2: "Position is not available",
-//        3: "Request timed out"
-//    };
-//
-//    var errorMessage = errorTypes[error.code];
-//
-//    if (error.code == 0 || error.code == 2)
-//    {
-//        errorMessage = errorMessage + " " + error.message;
-//    }
-//
-//    $("#error").html(errorMessage);
-//}
-
 
 function setRate(rateParams)
 {
@@ -171,8 +96,6 @@ function resize()
 
 function onButtonClicked()
 {
-//    updateLocation({latitude:48.4440896, longitude:35.0224676});
-
     if (!buttonWasClicked)
     {
         //save last coords for compute model
@@ -226,9 +149,9 @@ function updateModel()
 
 function updateView()
 {
-    $("#distance").html(distanceTotal);
+    $("#distance").html(distanceTotal.toFixed(2));
     $("#time").html(time);
-    $("#cost").html(cost);
+    $("#cost").html(distanceTotal.toFixed(2));
 }
 
 //  ===ADDING MAP===
