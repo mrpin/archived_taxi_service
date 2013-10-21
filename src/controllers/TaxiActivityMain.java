@@ -1,21 +1,17 @@
 package controllers;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
-import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.Button;
-import android.widget.TextView;
 import com.mrpin.taxi.R;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -48,7 +44,6 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
      */
 
 
-
     private boolean isGPSEnabled()
     {
         return _locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
@@ -70,24 +65,24 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        _locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
 
 //        _textView.setText(String.format("Cтоимость: %f", 15.0));
 //        _textView = (TextView) findViewById(R.id.textView);
 //        _buttonGPS = (Button) findViewById(R.id.buttonGPS);
 //        _buttonGPS.setOnClickListener(this);
-        _locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
 //        _rateDowntime = 15;
 //        _rateCity = 26;
     }
 
-    private void recreateWebView()
+    @Override
+    public void onResume()
     {
-        if(_webView != null)
-        {
-            _webView.removeAllViews();
-        }
+        super.onResume();
+
+        updateListener();
 
         _webView = new WebView(this);
         _webView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
@@ -95,14 +90,6 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
 
         _webView.getSettings().setJavaScriptEnabled(true);
         _webView.loadUrl("file:///android_asset/index.html");
-
-        setRate();
-    }
-
-    @Override
-    public void onResume()
-    {
-        super.onResume();
 
 //        recreateWebView();
 
@@ -115,7 +102,7 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
     {
         super.onPause();
 
-        _locationManager.removeUpdates(this);
+//        _locationManager.removeUpdates(this);
     }
 
 
@@ -137,17 +124,21 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
         }
         else
         {
-            String locationProvider = _locationManager.getBestProvider(new Criteria(), false);
+            List<String> providers = _locationManager.getProviders(false);
 
-            Location lastLocation = _locationManager.getLastKnownLocation(locationProvider);
-
-            if(lastLocation != null)
+            for (String provider : providers)
             {
-                onLocationChanged(lastLocation);
-            }
+                _locationManager.requestLocationUpdates(provider, 0, 0.0f, this);
+//                Location lastLocation = _locationManager.getLastKnownLocation(provider);
 
-            _locationManager.requestLocationUpdates(locationProvider, 3000, 0, this);
+//                if (lastLocation != null)
+//                {
+//                    onLocationChanged(lastLocation);
+//                }
+            }
         }
+
+
     }
 
     private void updateView()
@@ -238,12 +229,27 @@ public class TaxiActivityMain extends Activity implements LocationListener, andr
     @Override
     public void onProviderEnabled(String s)
     {
+        System.out.print("");
+
+        List<String> providers = _locationManager.getProviders(true);
+
+        for (String provider : providers)
+        {
+            Location lastLocation = _locationManager.getLastKnownLocation(provider);
+            _locationManager.requestLocationUpdates(provider, 0, 0.0f, this);
+
+            if (lastLocation != null)
+            {
+                onLocationChanged(lastLocation);
+            }
+        }
 //        updateView();
     }
 
     @Override
     public void onProviderDisabled(String s)
     {
+        System.out.print("");
 //        updateView();
     }
 }
